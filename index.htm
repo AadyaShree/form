@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<link rel="stylesheet" href="style.css">
+
+
+<body style="background-color: rgb(142, 233, 240);">
+    <h1 class="input-container">Student Registration Form</h1>
+    <div class="center-form">
+        <form>
+        <label  class="padding" >First Name</label> <input type="text" required><br>
+        <label  class="padding" >Last Name</label><input type="text" required><br>
+        <label>Branch</label><br>
+        <select name="Branch" id="Branch">
+          <option value=""></option>
+          <option value="CSE">CSE</option>
+          <option value="IT">IT</option>
+          <option value="AI ML">AI ML</option>
+      </select><br>
+
+      <label>Section</label><br>
+        <select name="Section" id="Section">
+              <option value=""></option>
+            <option value="A">A</option>
+            <option value="B">B</option>
+            <option value="C">C</option>
+        </select><br>
+        
+        <label  class="padding" 
+        >Roll Number</label><input type="number"><br>
+        <label>Language interested to Learn</label><br>
+        <select name="Language" id="Language">
+        <option value="korean">Korean</option><option>Japanese</option>
+        <option>Chinese</option><option>German</option><option>Spanish</option>
+        <option>Arabic</option><option selected></option>
+        </form></select><br>
+        <label>Email</label><input type="email" required><br>
+        <label>Contact No.</label><input type="tel"><br>
+<!--        <input type="button" name="submit" value="submit"><br>
+WRONG METHOD-->
+        <button class="text-red" type="submit">submit</button>
+        
+
+    </form></div>
+    
+</body>
+</html>

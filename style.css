@@ -1,0 +1,60 @@
+.text-red{
+    color:rgb(255, 192, 192)}
+    label{
+        text-transform: capitalize;
+        color: black;
+        border-bottom-left-radius: 5px;
+    }
+    button{
+        background-color: rgb(56, 37, 141);
+        padding: 10px;
+        border-radius: 10px;
+        cursor: pointer;
+        width: 10%;
+        position: relative;
+        
+
+    }
+    .input-container{
+        text-align: center;
+        padding: 12 px;
+        background-color: rgb(103, 115, 228);
+        width: 500px;
+        padding: 5px;
+        border: 3px solid rgb(20, 20, 196);
+        margin-left: 2px;
+        margin:20;
+    }
+    input {
+        width:20%;
+        height: 23px;
+        border-bottom-left-radius: 15px;
+        border-top-right-radius: 15px;
+
+
+    }
+    .padding{
+        padding:1px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        background-color: rgb(115, 216, 132);
+    }
+    body {
+        background-image:url("https://www.google.com/imgres?imgurl=http%3A%2F%2Fstatic1.squarespace.com%2Fstatic%2F5397e247e4b06f7b20eff5a9%2Ft%2F54d13b0fe4b087ce29a288d8%2F1422998288577%2F%3Fformat%3D1500w&tbnid=NrceVadM6A1moM&vet=12ahUKEwj1pIjxxbP-AhXU-XMBHT_bB9MQMygNegUIARD6AQ..i&imgrefurl=https%3A%2F%2Fwww.artistryhouse.com%2Fnews%2F2015%2F2%2F3%2Flanguage-in-movement-dance-and-language-go-hand-in-hand&docid=Q6uxRl8jKpWGWM&w=1055&h=515&q=language&ved=2ahUKEwj1pIjxxbP-AhXU-XMBHT_bB9MQMygNegUIARD6AQ");
+        background-color: #cccccc;
+      }
+      .center-form{
+
+        justify-content: center;
+        
+        
+        
+        margin: 40px 50px;
+        
+        border: 3px solid blue;
+        
+        padding: 30px;
+        
+        
+        
+        }
